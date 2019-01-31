@@ -1,8 +1,35 @@
 # 背景
 最近对python爬虫感兴趣，参考了网上的教程，试着做一下。
 
-
 这个就随时更新吧
+
+# 笔记
+## 使用git管理
+### git的同步几个常用命令
+'''
+# 在要同步的文件夹下初始化git
+git init
+
+# 关联到github远程仓库
+git remote add origin git@github.com:HuaienYao/python-crawler.git
+
+# 在文件改动后将修改状况提交到暂存区
+git add .
+
+# 添加改动说明，例如'增加了readme'
+git commit -m "增加了readme"
+
+# 推送暂存区的文件到github远程仓库
+git push -u origin master
+'''
+以上只是为了忘记的时候可以拿来看看。
+
+如果在新的设备上要克隆下远程仓库文件，就用下列的命令
+'''
+git clone git@github.com:HuaienYao/python-crawler.git
+'''
+
+
 
 
 
