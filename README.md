@@ -34,7 +34,19 @@ git clone git@github.com:HuaienYao/python-crawler.git
 
 来源:https://blog.csdn.net/kucoffee12/article/details/75252858
 
+## 初识python爬虫
+### 原理
+python爬虫的原理就是将一个网页的源码打印出来并分析，使用正则表达式来匹配相关条件来获取需要的信息。
 
+比如把html网页的源码分析后，根据各个html标签来定位该信息。
+
+### pycharm的配置
+#### 安装库
+pycharm在安装后就可以使用，但是如果没有额外安装需要的库的话，导入的库无作用。比如我们需要用到beautiful soup这个爬虫框架，但是pycharm安装后里面并没有，需要自己手动安装。
+
+```
+菜单栏上的 File > Settings > Project > Project Interpreter 里面搜索到你需要的库来点击下方的Install 来安装。
+```
 
 
 
