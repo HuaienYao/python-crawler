@@ -6,7 +6,7 @@
 # 笔记
 ## 使用git管理
 ### git的同步几个常用命令
-'''
+```
 # 在要同步的文件夹下初始化git
 git init
 
@@ -21,15 +21,18 @@ git commit -m "增加了readme"
 
 # 推送暂存区的文件到github远程仓库
 git push -u origin master
-'''
+```
 以上只是为了忘记的时候可以拿来看看。
 
 如果在新的设备上要克隆下远程仓库文件，就用下列的命令
-'''
+```
 git clone git@github.com:HuaienYao/python-crawler.git
-'''
+```
+这里附上git pull和git clone的区别
+> 一、git pull命令用于取回远程主机某个分支的更新与本地的指定分支合并。
+> 二、git clone是把整个git项目拷贝下来，包括里面的日志信息，git项目里的分支，你也可以直接切换、使用里面的分支等等
 
-
+来源:https://blog.csdn.net/kucoffee12/article/details/75252858
 
 
 
